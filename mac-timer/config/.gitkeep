@@ -1,0 +1,10 @@
+# macOS Auto-Logout Timer - Example Configuration
+
+This directory can contain configuration files for the mac-timer application.
+
+Example usage:
+```bash
+python3 mac_timer.py -c ./config.json 5m
+```
+
+This will create a `config.json` file with your timeout settings for reuse.

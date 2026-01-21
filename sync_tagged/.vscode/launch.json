@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Dry-run with Red tag",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/sync_tagged.py",
+      "console": "integratedTerminal",
+      "args": ["--dryrun", "/Users/tylerburton/Videos", "--tag", "Red"],
+      "justMyCode": true
+    }
+  ]
+}
